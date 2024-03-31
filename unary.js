@@ -1,0 +1,15 @@
+var a = 3;
+var b = 2;
+var c;
+c = ++a + a++ + --b + b-- + a + b++ + b;
+console.log(c);
+var a1 = 5;
+var b2 = 2;
+var c1;
+c1 = --a + a-- + --b + b-- + a + b-- + b;
+console.log(c1);
+var ab = 5;
+var bc = 2;
+var ac;
+ac = ++ab + ab++ + --bc + bc-- + ab + bc++ + bc - ab++ - bc-- + ++ab + --bc;
+console.log(ac);
